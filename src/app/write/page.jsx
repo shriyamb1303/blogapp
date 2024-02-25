@@ -17,17 +17,17 @@ import dynamic from "next/dynamic";
 
 const WritePage = () => {
   const { status } = useSession();
-  // const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
+  const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
   const router = useRouter();
 
-  const [ReactQuill, setReactQuill] = useState(null);
+  // const [ReactQuill, setReactQuill] = useState(null);
 
-  useEffect(() => {
-    import("react-quill").then((module) => {
-      setReactQuill(module.default);
-    });
-  }, []);
+  // useEffect(() => {
+  //   import("react-quill").then((module) => {
+  //     setReactQuill(module.default);
+  //   });
+  // }, []);
 
   const [open, setOpen] = useState(false);
   const [file, setFile] = useState(null);
