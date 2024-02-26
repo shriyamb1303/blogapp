@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Description
+
+This project is a blog application that enables users to create their own blogs and engage with others by commenting on their posts. Whether you're a seasoned writer or just starting out, this platform provides a space for sharing thoughts, ideas, and experiences with a community of like-minded individuals.
+PROJECT LINK - https://blogapp03303.vercel.app/
+
+## Tech Stack
+
+- **Next.js:** This project utilizes Next.js, a React framework, for building a dynamic and responsive frontend.
+  
+- **Prisma:** Prisma is employed as the ORM (Object-Relational Mapping) for communicating with the MongoDB database, providing a seamless and efficient data layer.
+
+- **MongoDB:** MongoDB serves as the database management system, offering flexibility and scalability for storing and managing blog posts, user information, and comments.
+
+- **Google Authentication:** Authentication is handled through Google's OAuth, ensuring secure and convenient access for users.
+
+- **Firebase:** Firebase is utilized for image upload functionality, allowing users to seamlessly add images to their blog posts.
+
+- **Vercel:** The application is deployed on Vercel, providing a reliable hosting platform with automatic deployments and scalability features.
+
 
 ## Getting Started
 
